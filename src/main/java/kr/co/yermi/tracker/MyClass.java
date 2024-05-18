@@ -12,21 +12,21 @@ public class MyClass {
 	@MethodFlow
     public void anotherMethod() {
         System.out.println("Executing anotherMethod");
-        methodA();
+//        methodA();
     }
-	@MethodFlow
+//	@MethodFlow
 	private void methodA() {
 		methodB();
 	}
-	@MethodFlow
+//	@MethodFlow
 	private void methodB() {
 		methodC();
 	}
-	@MethodFlow
+//	@MethodFlow
 	private void methodC() {
 		methodD();
 	}
-	@MethodFlow
+//	@MethodFlow
 	private void methodD() {
 		System.out.println("the end");
 	}
